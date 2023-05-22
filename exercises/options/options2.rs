@@ -26,17 +26,10 @@ mod tests {
         let mut cursor = range;
 
         // TODO: make this a while let statement - remember that vector.pop also adds another layer of Option<T>
-<<<<<<< HEAD
-        // You can stack `Option<T>`s into while let and if let
-        integer = optional_integers.pop() {
-            assert_eq!(integer, cursor);
-            cursor -= 1;
-=======
         // You can stack `Option<T>`'s into while let and if let
         while let Some(Some(integer)) = optional_integers.pop() {
-            assert_eq!(integer, range);
-            range -= 1;
->>>>>>> 8bf6a52 (work so far)
+            assert_eq!(integer, cursor);
+            cursor -= 1;
         }
 
         assert_eq!(cursor, 0);
