@@ -2,6 +2,8 @@
 
 **NOTE: DON'T SYNC WITH UPSTREAM.  STUFF GETS MESSY**
   
+This is my fork of rustlings so I can easily sync my own progress in the challenges :)
+  
 # rustlings 🦀❤️
 
 </div>
