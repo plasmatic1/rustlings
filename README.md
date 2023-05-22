@@ -1,5 +1,7 @@
 <div class="oranda-hide">
 
+**NOTE: DON'T SYNC WITH UPSTREAM.  STUFF GETS MESSY**
+  
 # rustlings 🦀❤️
 
 </div>
